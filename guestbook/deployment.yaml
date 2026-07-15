@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: guestbook-ui
+  name: guestbook
 spec:
   replicas: 5                     # Self-heal demo-ku idha use pannuvom
   selector:
